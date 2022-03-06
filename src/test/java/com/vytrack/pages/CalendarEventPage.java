@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class CalendarEventsPage extends BasePage {
+public class CalendarEventPage extends BasePage {
 
-    public CalendarEventsPage() {
+    public CalendarEventPage() {
         PageFactory.initElements(Driver.get(), this);
     }
 
