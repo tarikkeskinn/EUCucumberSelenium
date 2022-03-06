@@ -16,7 +16,7 @@ Feature:Account types
   Scenario: Store manager user
     Given the user logged in as "store manager"
     When the user navigates to "Customers" "Contacts"
-    Then the title contains "Contacts - CustomerS"
+    Then the title contains "Contacts - Customers"
 
 
   Scenario Outline: Different user types
